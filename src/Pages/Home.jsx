@@ -3,6 +3,7 @@ import Banner from '../Components/banner/Banner';
 import Box from '../Components/Box';
 import Container from '../Components/Container';
 import Kategori from '../Components/kategori/Kategori';
+import ProdukUnggulan from '../Components/Produk/ProdukUnggulan';
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
                 <Box>
                     <Banner></Banner>
                     <Kategori></Kategori>
+                    <ProdukUnggulan></ProdukUnggulan>
                 </Box>
             </Container>
         </div>
