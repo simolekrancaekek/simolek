@@ -31,7 +31,7 @@ function App() {
                         <>
                             <Container>
                                 <Box>
-                                    <div>Produk</div>
+                                    <div>Produk UMKM</div>
                                 </Box>
                             </Container>
                         </>
