@@ -11,7 +11,7 @@ function Kategori() {
                     Lihat Lainya
                 </div>
             </div>
-            <div className='mt-4 flex items-center justify-between gap-5'>
+            <div className='mt-4 flex flex-col md:flex-row items-center justify-between gap-5'>
                 <div className='relative overflow-hidden rounded-lg h-36 w-full  flex justify-center items-center'>
                     <img
                         src='https://images.unsplash.com/photo-1622445275992-e7efb32d2257?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHRzaGlydCUyMG1vY2t1cHxlbnwwfDF8MHx8&auto=format&fit=crop&w=800&q=60'

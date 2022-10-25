@@ -3,8 +3,8 @@ import React from 'react';
 function ProdukUnggulan({ children }) {
     return (
         <div className='my-10'>
-            <div className='flex justify-between items-start gap-x-8'>
-                <div className='w-8/12 h-[720px] shadow-2xl bg-cyan-50 overflow-hidden relative rounded-3xl'>
+            <div className='flex flex-col-reverse md:flex-row justify-between items-start md:items-center gap-x-8'>
+                <div className='w-full h-64 md:w-8/12 md:h-[720px] shadow-2xl bg-cyan-50 overflow-hidden relative rounded-3xl mt-8 md:mt-0'>
                     <img
                         src='https://images.unsplash.com/photo-1598276223578-f16e0efa9920?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fHNuYWNrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60'
                         alt='Produk'
@@ -12,12 +12,10 @@ function ProdukUnggulan({ children }) {
                     />
                     {/* <div className=' w-full h-full bg-black/20 backdrop-opacity-10'></div> */}
                 </div>
-                <div className='w-4/12'>
+                <div className='w-full mt-4 md:mt-0 md:w-4/12'>
                     <div>
                         <h1 className='font-medium text-2xl text-emerald-900 leading-relaxed tracking-tight'>
-                            Produk Unggulan
-                            <br />
-                            Minggu Ini
+                            Produk Unggulan Minggu Ini
                         </h1>
                         <h3 className='font-bold text-2xl text-slate-900 leading-relaxed tracking-normal mt-4'>
                             Bolu Coklat Ma Cici
