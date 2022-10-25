@@ -41,7 +41,7 @@ function Index() {
                         <>
                             <Container>
                                 <Box>
-                                    <div>Berita</div>
+                                    <div>Berita UMKM</div>
                                 </Box>
                             </Container>
                         </>
