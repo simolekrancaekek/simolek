@@ -3,6 +3,7 @@ import Banner from '../Components/banner/Banner';
 import Box from '../Components/Box';
 import Container from '../Components/Container';
 import Kategori from '../Components/kategori/Kategori';
+import ListProduk from '../Components/Produk/ListProduk';
 import ProdukUnggulan from '../Components/Produk/ProdukUnggulan';
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
                     <Banner></Banner>
                     <Kategori></Kategori>
                     <ProdukUnggulan></ProdukUnggulan>
+                    <ListProduk></ListProduk>
                 </Box>
             </Container>
         </div>
