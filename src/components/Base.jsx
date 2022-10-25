@@ -6,7 +6,7 @@ import Kategori from './kategori/Kategori';
 
 function Base() {
     return (
-        <div className='antialiased font-Poppins'>
+        <div className='antialiased font-Poppins bg-slate-200'>
             <Container>
                 <Box>
                     <Banner></Banner>
